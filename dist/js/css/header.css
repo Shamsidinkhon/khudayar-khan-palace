@@ -1,10 +1,83 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
 }
 #imgHeader {
     width: 100%;
 }
 header {
     width: 100%;
-    height: 600px;
 }
+#divImg {
+    width: 100%;
+    height: 600px;
+    background-image: url("./img/xudoyorxon1.jpg");
+    opacity: 0.3;
+}
+#firstFoto {
+    background-image: url("./img/backgroundXudoyorxon.jpg");
+    width: 100%;
+}
+#secondFoto {
+    background-image: url("./img/xudoyorxon6.jpg");
+    width: 100%;
+}
+#thirdFoto {
+    background-image: url("./img/xudoyorxon5.jpg");
+    width: 100%;
+    height: 250px;
+}
+#fourthFoto {
+    background-image: url("./img/xudoyorxonYodgorliklar1.jpg");
+    width: 100%;
+}
+#changeFont {
+    font-size: 70px;
+}
+#bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 70px;
+    color: white;
+}
+#container {
+    position: relative;
+  }
+  
+  .continer {
+    overflow: hidden;
+    height: 630px;
+    width: 100%;
+}
+.imgContiner {
+    display: flex;
+    transition: transform 2s ease-in-out;
+    transform: translateX(0);
+}
+.butons-continer {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    border: 1px dashed red;
+    background-color: blue;
+
+}
+button :focus {
+    outline: none;
+}
+button :hover {
+    opacity: 0.90;
+}
+/* .myImg {
+    object-fit: cover;
+    width: 500px;
+} */
