@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Khudayar Khan Palace</title>
+    <link rel="shortcut icon" type="image/png" sizes="192x192" href="./dist/images/favicon.svg">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="./dist/images/favicon.svg">
+    <link rel="shortcut icon" type="image/png" sizes="96x96" href="./dist/images/favicon.svg">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="./dist/images/favicon.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
 </head>
+
 <body>
     <div id="myApp">
-        {{hello}}
+        <div class="columns mt-6 ">
+            <div class="column is-4 is-offset-8 is-full-mobile">
+                <div class="field has-addons">
+                    <div class="control ">
+                        <input class="input" type="text" placeholder="Exhibit">
+                    </div>
+                    <div class="control ">
+                        <a class="button is-info">
+                            Search
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://unpkg.com/vue@next"></script>
     <script src="./dist/js/app.js"></script>
 </body>
+
 </html>
