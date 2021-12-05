@@ -16,6 +16,6 @@
 
 
 export default {
-  name: 'Home'
+  name: 'Map'
 }
 </script>
