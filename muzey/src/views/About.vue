@@ -11,6 +11,18 @@
       </div>
     </div>
     </div>
-   
+     <div class="container mt-5">
+      <Gallery/>
+     </div>
   </div>
 </template>
+<script>
+
+import Gallery from '@/components/Gallery.vue';
+export default {
+  name: 'About',
+ components: {
+  Gallery
+ },
+}
+</script>
